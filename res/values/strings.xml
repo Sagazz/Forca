@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Forca</string>
+    <string name="action_settings">Settings</string>
+    <string name="Actv_main_label">Digite a palavra a ser descoberta:</string>
+    <string name="title_activity_actv_game">Actv_game</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

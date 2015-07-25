@@ -1,0 +1,495 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Actv_game" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layoutLetras"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_letra0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_letra19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="80sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvResultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_forca"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_weight="3"
+            android:src="@drawable/forca_0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_q"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q"
+            android:textSize="75sp"
+            android:onClick="pressionou_q" />
+
+        <Button
+            android:id="@+id/btn_w"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W"
+            android:textSize="75sp"
+            android:onClick="pressionou_w" />
+
+        <Button
+            android:id="@+id/btn_e"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:textSize="75sp"
+            android:onClick="pressionou_e" />
+
+        <Button
+            android:id="@+id/btn_r"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R"
+            android:textSize="75sp"
+            android:onClick="pressionou_r" />
+
+        <Button
+            android:id="@+id/btn_t"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T"
+            android:textSize="75sp"
+            android:onClick="pressionou_t" />
+
+        <Button
+            android:id="@+id/btn_y"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y"
+            android:textSize="75sp"
+            android:onClick="pressionou_y" />
+
+        <Button
+            android:id="@+id/btn_u"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U"
+            android:textSize="75sp"
+            android:onClick="pressionou_u" />
+
+        <Button
+            android:id="@+id/btn_i"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="I"
+            android:textSize="75sp"
+            android:onClick="pressionou_i" />
+
+        <Button
+            android:id="@+id/btn_o"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O"
+            android:textSize="75sp"
+            android:onClick="pressionou_o" />
+
+        <Button
+            android:id="@+id/btn_p"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P"
+            android:textSize="75sp"
+            android:onClick="pressionou_p" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_a"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textSize="75sp"
+            android:onClick="pressionou_a" />
+
+        <Button
+            android:id="@+id/btn_s"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:textSize="75sp"
+            android:onClick="pressionou_s" />
+
+        <Button
+            android:id="@+id/btn_d"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:textSize="75sp"
+            android:onClick="pressionou_d" />
+
+        <Button
+            android:id="@+id/btn_f"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:textSize="75sp"
+            android:onClick="pressionou_f" />
+
+        <Button
+            android:id="@+id/btn_g"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="G"
+            android:onClick="pressionou_g" />
+
+        <Button
+            android:id="@+id/btn_h"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="H"
+            android:onClick="pressionou_h" />
+
+        <Button
+            android:id="@+id/btn_j"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="J"
+            android:onClick="pressionou_j" />
+
+        <Button
+            android:id="@+id/btn_k"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="K"
+            android:onClick="pressionou_k" />
+
+        <Button
+            android:id="@+id/btn_l"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="L"
+            android:onClick="pressionou_l" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_z"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z"
+            android:textSize="75sp"
+            android:onClick="pressionou_z" />
+
+        <Button
+            android:id="@+id/btn_x"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="X"
+            android:onClick="pressionou_x" />
+
+        <Button
+            android:id="@+id/btn_c"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="C"
+            android:onClick="pressionou_c" />
+
+        <Button
+            android:id="@+id/btn_v"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="V"
+            android:onClick="pressionou_v" />
+
+        <Button
+            android:id="@+id/btn_b"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="B"
+            android:onClick="pressionou_b" />
+
+        <Button
+            android:id="@+id/btn_n"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="N"
+            android:onClick="pressionou_n" />
+
+        <Button
+            android:id="@+id/btn_m"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="75sp"
+            android:text="M"
+            android:onClick="pressionou_m" />
+
+    </LinearLayout>
+
+</LinearLayout>
